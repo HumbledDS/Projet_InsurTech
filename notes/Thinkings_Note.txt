@@ -1,0 +1,65 @@
+Liste of graphs : 
+
+0   Id_pol              100399 non-null  int64 
+ 1   Duration            100399 non-null  int64 
+ 2   Insured.age         100399 non-null  int64 
+ 3   Insured.sex         100399 non-null  object
+ 4   Car.age             100399 non-null  int64 
+ 5   Marital             100399 non-null  object
+ 6   Car.use             100399 non-null  object
+ 7   Credit.score        100399 non-null  int64 
+ 8   Region              100399 non-null  object
+ 9   Annual.miles.drive  100399 non-null  int64 
+ 10  Years.noclaims      100399 non-null  int64 
+ 11  Territory           100399 non-null  int64 
+
+graph to cross Age and sex
+
+Sex and Car use
+
+Car Age and Credit Score
+
+Car Age and Car use and Region
+
+Annual miles and Region
+Annual miles and Car Use
+
+
+Final DATABASE :
+Id_pol, Nb_Claim, AMT_Claim,
+
+Id_pol, Duration, Insured.age, Insured.sex, Car.age, Marital, Car.use, Credit.score, Region, Annual.miles.drive_declared, Years.noclaims, Territory, 
+
+Id_pol: Check if there are any patterns in driving behavior based on the policy ID. This could help identify specific groups of policyholders with distinct driving patterns.
+
+Duration: Explore how driving behavior metrics vary with the duration of the insurance policy. This could reveal insights into changes in driving patterns over time.
+
+Insured Age and Sex: Analyze driving behavior based on the age and gender of the insured. This can provide insights into how different demographic groups engage in driving.
+
+Car Age: Investigate if there is any correlation between the age of the vehicle and driving behavior. Older vehicles, for example, might have different driving patterns than newer ones.
+
+Marital Status: Cross-reference driving behavior with marital status to understand if there are differences in driving habits between married and single individuals.
+
+Car Use: Explore the relationship between driving behavior and the purpose of car use (Private, Commute, Farmer, Commercial). Different car uses may have distinct driving patterns.
+
+Credit Score: Investigate if there is any correlation between the credit score of the insured and driving behavior metrics. Credit score could be indicative of different risk profiles.
+
+Region: Analyze driving behavior based on the region. Urban and rural areas may exhibit different driving patterns.
+
+Annual Miles Driven Declared: Cross-reference declared annual miles with actual driving behavior to validate the accuracy of declared values and understand if there are discrepancies.
+
+Years No Claims: Investigate if there is any correlation between the number of years without claims and driving behavior metrics.
+
+Territory: Explore how driving behavior varies across different territorial locations.
+
+Annual Percentage Driven: The percentage of the year during which driving occurs. You can analyze the distribution of this value to understand how frequently drivers use their vehicles throughout the year.
+
+Total Miles Driven: The total number of miles driven. This can provide insights into the overall driving activity.
+
+Percentage of Driving on Each Day of the Week: Columns from 'Pct.drive.mon' to 'Pct.drive.sun' represent the percentage of driving on each day of the week. You can analyze these percentages to identify trends in driving behavior based on weekdays and weekends.
+
+Percentage of Driving During Specific Hours: Columns like 'Pct.drive.2hrs', 'Pct.drive.3hrs', and 'Pct.drive.4hrs' represent the percentage of driving during specific hours of the day. This can help identify peak driving hours.
+
+Average Days of Driving per Week: 'Avgdays.week' provides the average number of days a driver uses their vehicle in a week. This can give an overview of the weekly driving frequency.
+
+To gain deeper insights, you can perform statistical analyses, visualize distributions, and explore relationships between these variables and other features in your dataset. Additionally, you may want to check for correlations between these driving behavior metrics and external factors such as location, demographics, or vehicle characteristics.

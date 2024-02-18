@@ -1,0 +1,12 @@
+pandas
+numpy
+openpyxl
+
+seaborn
+catboost
+xgboost
+matplotlib
+scikit-learn
+
+xgboost
+catboost
